@@ -1,0 +1,12 @@
+# 演示场景 — Mac M4 本地 CPU 可跑
+name: demo_warehouse
+nav_graph: data/processed/nav_graph.json
+od_matrix: scenarios/od_matrix.csv
+vehicle_count: 4
+speed_mps: 1.2
+load_time_s: 15
+unload_time_s: 15
+horizon_s: 1800
+seed: 42
+trajectory_dt: 1.0
+unit_scale: 1.0
